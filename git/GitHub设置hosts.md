@@ -1,3 +1,5 @@
+# Github 设置 hosts
+
 1. 从链接中获取hosts：
 
    - [hosts.gitcdn.top/hosts.txt](https://hosts.gitcdn.top/hosts.txt)
@@ -10,5 +12,3 @@
    ```powershell
    ipconfig /flushdns
    ```
-
-   
