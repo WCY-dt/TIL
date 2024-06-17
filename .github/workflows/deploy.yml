@@ -40,10 +40,21 @@ jobs:
           echo '        }' >> index.html
           echo '    </script>' >> index.html
           echo '    <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>' >> index.html
+          echo '    <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>' >> index.html
+          echo '    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>' >> index.html
+          echo '    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>' >> index.html
+          echo '    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>' >> index.html
+          echo '    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>' >> index.html
+          echo '    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-yaml.min.js"></script>' >> index.html
+          echo '    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-powershell.min.js"></script>' >> index.html
+          echo '    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-batch.min.js"></script>' >> index.html
+          echo '    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-shell.min.js"></script>' >> index.html
           echo '</body>' >> index.html
           echo '</html>' >> index.html
       - name: Generate .nojekyll
         run: touch .nojekyll
+      - name: Generate CNAME
+        run: echo 'til.ch3nyang.top' > CNAME
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
