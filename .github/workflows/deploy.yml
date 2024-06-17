@@ -11,21 +11,39 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
-
       - name: Install docsify-cli
         run: npm i docsify-cli -g
-
       - name: Install docsify-tools
         run: npm i docsify-tools -g
-
       - name: Generate sidebar
         run: docsify-auto-sidebar -d .
-
+      - name: Generate index.html
+        run: |
+          echo '<!DOCTYPE html>' > index.html
+          echo '<html lang="en">' >> index.html
+          echo '<head>' >> index.html
+          echo '    <meta charset="UTF-8">' >> index.html
+          echo '    <meta name="viewport" content="width=device-width, initial-scale=1.0">' >> index.html
+          echo '    <title>TIL</title>' >> index.html
+          echo '    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/themes/vue.css" />' >> index.html
+          echo '</head>' >> index.html
+          echo '<body>' >> index.html
+          echo '    <div id="app"></div>' >> index.html
+          echo '    <script>' >> index.html
+          echo '        window.$docsify = {' >> index.html
+          echo '            loadSidebar: true,' >> index.html
+          echo '            subMaxLevel: 2' >> index.html
+          echo '        }' >> index.html
+          echo '    </script>' >> index.html
+          echo '    <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>' >> index.html
+          echo '</body>' >> index.html
+          echo '</html>' >> index.html
+      - name: Generate .nojekyll
+        run: touch .nojekyll
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
