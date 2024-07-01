@@ -11,6 +11,7 @@
   - git
     - [GitHub设置hosts](/git/GitHub设置hosts.md)
     - [Git_LFS和GitHub_pages不兼容](/git/Git_LFS和GitHub_pages不兼容.md)
+    - [WSL配置ssh连接GitHub](/git/WSL配置ssh连接GitHub.md)
   - go
     - [go install换源](/go/go%20install换源.md)
   - network
