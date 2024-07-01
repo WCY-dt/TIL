@@ -6,6 +6,10 @@
     - [React项目添加Tailwind](/Tailwind/React项目添加Tailwind.md)
   - TypeScript
     - [React项目添加TypeScript](/TypeScript/React项目添加TypeScript.md)
+  - VMware
+    - [VMware_Tools无法直接安装](/VMware/VMware_Tools无法直接安装.md)
+    - [使用GitHub_Copilot](/VMware/使用GitHub_Copilot.md)
+    - [共享宿主机代理](/VMware/共享宿主机代理.md)
   - cmake
     - [找不到cl](/cmake/找不到cl.md)
   - git
