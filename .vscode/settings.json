@@ -1,5 +1,6 @@
 {
     "markdownlint.config": {
         "MD033": false, // Disable inline HTML check
+        "MD034": false, // Disable bare URL check
     },
 }
