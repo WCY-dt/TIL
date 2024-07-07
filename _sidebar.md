@@ -2,6 +2,8 @@
     - [查看笔记本电池使用情况](/CMD/查看笔记本电池使用情况.md)
   - HTTP
     - [CORS中POST变为OPTIONS](/HTTP/CORS中POST变为OPTIONS.md)
+  - Linux
+    - [后台运行命令](/Linux/后台运行命令.md)
   - Tailwind
     - [React项目添加Tailwind](/Tailwind/React项目添加Tailwind.md)
   - TypeScript
