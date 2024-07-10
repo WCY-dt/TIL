@@ -1,5 +1,7 @@
   - CMD
     - [查看笔记本电池使用情况](/CMD/查看笔记本电池使用情况.md)
+  - Discord
+    - [分享用户链接](/Discord/分享用户链接.md)
   - HTTP
     - [CORS中POST变为OPTIONS](/HTTP/CORS中POST变为OPTIONS.md)
   - Linux
