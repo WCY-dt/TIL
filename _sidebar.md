@@ -1,11 +1,24 @@
   - CMD
     - [查看笔记本电池使用情况](/CMD/查看笔记本电池使用情况.md)
+  - Cmake
+    - [找不到cl](/Cmake/找不到cl.md)
   - Discord
     - [分享用户链接](/Discord/分享用户链接.md)
+  - Git
+    - [GitHub设置hosts](/Git/GitHub设置hosts.md)
+    - [Git_LFS和GitHub_pages不兼容](/Git/Git_LFS和GitHub_pages不兼容.md)
+    - [WSL配置ssh连接GitHub](/Git/WSL配置ssh连接GitHub.md)
+    - [更改文件夹名大小写](/Git/更改文件夹名大小写.md)
+  - Go
+    - [go install换源](/Go/go%20install换源.md)
   - HTTP
     - [CORS中POST变为OPTIONS](/HTTP/CORS中POST变为OPTIONS.md)
   - Linux
     - [后台运行命令](/Linux/后台运行命令.md)
+  - Network
+    - [端口号为0的含义](/Network/端口号为0的含义.md)
+  - Regex
+    - [替换部分内容](/Regex/替换部分内容.md)
   - Tailwind
     - [React项目添加Tailwind](/Tailwind/React项目添加Tailwind.md)
   - TypeScript
@@ -14,13 +27,3 @@
     - [VMware_Tools无法直接安装](/VMware/VMware_Tools无法直接安装.md)
     - [使用GitHub_Copilot](/VMware/使用GitHub_Copilot.md)
     - [共享宿主机代理](/VMware/共享宿主机代理.md)
-  - cmake
-    - [找不到cl](/cmake/找不到cl.md)
-  - git
-    - [GitHub设置hosts](/git/GitHub设置hosts.md)
-    - [Git_LFS和GitHub_pages不兼容](/git/Git_LFS和GitHub_pages不兼容.md)
-    - [WSL配置ssh连接GitHub](/git/WSL配置ssh连接GitHub.md)
-  - go
-    - [go install换源](/go/go%20install换源.md)
-  - network
-    - [端口号为0的含义](/network/端口号为0的含义.md)
