@@ -1,6 +1,8 @@
 {
     "markdownlint.config": {
+        "MD029": false, // Disable ordered list item prefix check
         "MD033": false, // Disable inline HTML check
         "MD034": false, // Disable bare URL check
+        "MD040": false, // Disable fenced code block style check
     },
 }

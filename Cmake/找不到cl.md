@@ -15,4 +15,3 @@ is not a full path and was not found in the PATH.
 ```shell
 cmake -G "MinGW Makefiles"
 ```
-
