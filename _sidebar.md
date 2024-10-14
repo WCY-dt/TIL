@@ -15,6 +15,8 @@
     - [CORS中POST变为OPTIONS](/HTTP/CORS中POST变为OPTIONS.md)
   - Linux
     - [后台运行命令](/Linux/后台运行命令.md)
+  - NPM
+    - [设置npm代理](/NPM/设置npm代理.md)
   - Network
     - [端口号为0的含义](/Network/端口号为0的含义.md)
   - Regex
