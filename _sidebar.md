@@ -19,6 +19,8 @@
     - [设置npm代理](/NPM/设置npm代理.md)
   - Network
     - [端口号为0的含义](/Network/端口号为0的含义.md)
+  - Python
+    - [matplotlib绘制中文](/Python/matplotlib绘制中文.md)
   - Regex
     - [替换部分内容](/Regex/替换部分内容.md)
   - Tailwind
