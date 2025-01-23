@@ -14,6 +14,7 @@
   - HTTP
     - [CORS中POST变为OPTIONS](/HTTP/CORS中POST变为OPTIONS.md)
   - Linux
+    - [不在sudoers文件中](/Linux/不在sudoers文件中.md)
     - [后台运行命令](/Linux/后台运行命令.md)
   - NPM
     - [设置npm代理](/NPM/设置npm代理.md)
@@ -29,5 +30,6 @@
     - [React项目添加TypeScript](/TypeScript/React项目添加TypeScript.md)
   - VMware
     - [VMware_Tools无法直接安装](/VMware/VMware_Tools无法直接安装.md)
+    - [vmx版本不兼容](/VMware/vmx版本不兼容.md)
     - [使用GitHub_Copilot](/VMware/使用GitHub_Copilot.md)
     - [共享宿主机代理](/VMware/共享宿主机代理.md)
