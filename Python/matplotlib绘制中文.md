@@ -12,6 +12,8 @@
     mplfonts init
     ```
 
+    > 在 Jupyter Notebook 中使用时，可以用 `!mplfonts init` 代替。
+
 3. 使用中文
 
     ```python
