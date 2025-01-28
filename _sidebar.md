@@ -33,3 +33,4 @@
     - [vmx版本不兼容](/VMware/vmx版本不兼容.md)
     - [使用GitHub_Copilot](/VMware/使用GitHub_Copilot.md)
     - [共享宿主机代理](/VMware/共享宿主机代理.md)
+    - [键盘无法使用](/VMware/键盘无法使用.md)
