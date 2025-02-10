@@ -13,6 +13,8 @@
     - [go install换源](/Go/go%20install换源.md)
   - HTTP
     - [CORS中POST变为OPTIONS](/HTTP/CORS中POST变为OPTIONS.md)
+  - IDEA
+    - [Copilot登录报错](/IDEA/Copilot登录报错.md)
   - Linux
     - [不在sudoers文件中](/Linux/不在sudoers文件中.md)
     - [后台运行命令](/Linux/后台运行命令.md)
